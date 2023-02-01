@@ -21,7 +21,7 @@
     top:0;
     height:100%;
     z-index:100;
-    background-color:#320962;
+    background-color:#fff;
     transition:width 0.3s ease;
     cursor:pointer;
     box-shadow:4px 7px 10px rgba(0, 0, 0, .4);
@@ -112,7 +112,7 @@ html{
     padding-right:21px;
     padding-bottom:0;
     color:#fff;
-    background-color:#522d91;
+    /* background-color:#522d91; */
 }
 .kategorije-div h1{
     color:#522d91;
@@ -170,7 +170,7 @@ html{
     padding-right:161px;
     padding-bottom:0px;
     display:flex;
-    background-color:#522d91;
+    background-color:#fff;
 }
 .f-sekcija{
     width:50%;
@@ -180,7 +180,7 @@ html{
     color:white;
 }
 .f-sekcija a{
-    color:white;
+    color: #ED2F24 !important;
     text-decoration:underline;
     line-height:30px;
 }
@@ -247,14 +247,21 @@ html{
     text-align:center;
     font-weight:800;
     width:unset;
+    color: #04A94D;
 }
 .proizvodi-row.footer{
     padding-top:51px !important;
 }
 .ljubicasta-pozadina{
-    background-color:#522d91;
+    background-color:#fff;
     z-index:10 !important;
     position:relative !important;
+    -webkit-box-shadow: 2px -4px 5px 0px rgb(0 0 0 / 40%);
+    -moz-box-shadow: 2px -4px 5px 0px rgb(0 0 0 / 40%);
+    box-shadow: 2px -4px 5px 0px rgb(0 0 0 / 40%);
+}   
+#mauticform_njuzleterkatalogforma{
+    color: #ED2F24 !important;
 }
 .tabela-proizvoda-div.kategorije{
     padding-bottom:0 !important;
@@ -879,7 +886,7 @@ html{
 .zuti-cenovnik {
     width: 120px;
     padding: 5px;
-    background: #fde830;
+    background: #04A94D;
     /* border-radius: 31px 0px 0px 31px; */
     display: flex;
     position: relative;
@@ -901,7 +908,7 @@ html{
 .crveni-krug {
     width: 86px;
     padding: 5px;
-    background: #522e91;
+    background: #ED2F24;
     /* border-radius: 31px 0px 0px 31px; */
     display: flex;
     position: relative;
@@ -940,13 +947,13 @@ html{
 .cenovnik-left > div {
     font-size: 35px;
     margin-left: 6px;
-    color: #522e91;
+    color: #fff;
     font-weight: bold;
 }
 
 .cenovnik-right > div {
     text-decoration: line-through;
-    color: #522e91;
+    color: #fff;
     margin-left: 75px;
     font-weight: bold;
     font-size: 14px;
@@ -1677,18 +1684,18 @@ body > .mf-bar-collapser {
           /* calculator page */
   
           .telo-kalkulatora button{
-              width: 70px;
-              border: 4px solid #4C2987;
-              color: #4C2987;
-              background-color: #fff;
-              border-radius: 20px;
-              font-size: 20px;
-              font-weight: bold;
-              padding: 0;
-              cursor: pointer;
+            width: 70px;
+            border: 4px solid #ED2F24;
+            /* color: #ED2F24; */
+            background-color: #fff;
+            border-radius: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 0;
+            cursor: pointer;
           }
           .telo-kalkulatora .kolicina{
-              color: #4C2987;
+              /* color: #4C2987; */
               font-weight: bold;
               margin-left: 10px;
               margin-right: 10px;
@@ -1722,41 +1729,41 @@ body > .mf-bar-collapser {
           }
           /* <span class="checkmark"></span> */
           .checkmark {
-              position: absolute;
-              top: 0;
-              left: 0;
-              height: 30px;
-              width: 30px;
-              background-color: #fff;
-              border: 4px solid #4C2987;
-              display: block !important;
-              border-radius: 10px;
-          }
-          .selektor-kalkulatora:hover input ~ .checkmark {
-              background-color: #fff;
-          }
-          .selektor-kalkulatora input:checked ~ .checkmark {
-              background-color: #4C2987;
-          }
-          .checkmark:after {
-              content: "";
-              position: absolute;
-              display: none;
-          }
-          .selektor-kalkulatora input:checked ~ .checkmark:after {
-              display: block;
-          }
-          .selektor-kalkulatora .checkmark:after {
-              left: 5px;
-              top: 0px;
-              width: 7px;
-              height: 13px;
-              border: solid #F8D000;
-              border-width: 0 5px 5px 0;
-              -webkit-transform: rotate(45deg);
-              -ms-transform: rotate(45deg);
-              transform: rotate(45deg);
-          }
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 30px;
+            width: 30px;
+            background-color: #fff;
+            border: 4px solid #ED2F24;
+            display: block !important;
+            border-radius: 10px;
+            }
+            .selektor-kalkulatora:hover input ~ .checkmark {
+                background-color: #fff;
+            }
+            .selektor-kalkulatora input:checked ~ .checkmark {
+                background-color: #ED2F24;
+            }
+            .checkmark:after {
+                content: "";
+                position: absolute;
+                display: none;
+            }
+            .selektor-kalkulatora input:checked ~ .checkmark:after {
+                display: block;
+            }
+            .selektor-kalkulatora .checkmark:after {
+                left: 5px;
+                top: 0px;
+                width: 7px;
+                height: 13px;
+                border: solid #fff;
+                border-width: 0 5px 5px 0;
+                -webkit-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+            }
           /* checkbox */
           /* calculator */
           #kalkulator{
@@ -1767,7 +1774,7 @@ body > .mf-bar-collapser {
               text-transform: uppercase;
               overflow: hidden;
               font-weight: bold;
-              background-color: #4C2987;
+              /* background-color: #4C2987; */
               position: sticky;
               top: 10px;
               z-index: 100;
@@ -1777,7 +1784,7 @@ body > .mf-bar-collapser {
           }
           .usteda,
           .usteda + span{
-              color: #F8D000;
+              color: #fff;
           }
           .kalkulator{
             margin-top: -10px;
@@ -1787,20 +1794,19 @@ body > .mf-bar-collapser {
           /* calculator */
           /* sorting options */
           .sort-button{
-              font-weight: bold;
-              color: #4C2987;
-              display: block;
-              width: 280px;
-              height: auto;
-              text-align: center;
-              overflow: hidden;
-              color: #4C2987;
-              background-color: #F8D000;
-              border-radius: 80px;
-              cursor: pointer;
-              margin-top: 20px;
-              margin-bottom: 20px;
-              padding: 20px;
+            font-weight: bold;
+            display: block;
+            width: 280px;
+            height: auto;
+            text-align: center;
+            overflow: hidden;
+            color: #fff;
+            background-color: #ED2F24;
+            border-radius: 80px;
+            cursor: pointer;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding: 20px;
           }
           .sort-wrapper{
               width: 280px;
@@ -1845,7 +1851,7 @@ body > .mf-bar-collapser {
           .close-button{
             position: absolute;
             top: -14px;
-            background-color: #F8D000;
+            background-color: #04A94D;
             right: -14px;
             font-size: 15px;
             padding: 3px 6px 3px 6px;
@@ -1872,11 +1878,11 @@ body > .mf-bar-collapser {
           }
           /* search */
           /* newsletter */
-          #mauticform_input_njuzleterkatalogforma_prijavite_se_za_newslette{
+          /* #mauticform_input_njuzleterkatalogforma_prijavite_se_za_newslette{
             border-radius: 95px !important;
-            background: url('/SVG/newsletter_button.svg') no-repeat right center !important;
+            background: url(https://maxi.sales-snap.com/asset/1582:newslettermaxipng) no-repeat right center !important;
             background-color: white !important;
-          }
+          } */
           .submit-mask{
             height: 60px !important;
             width: 60px !important;
@@ -1897,19 +1903,22 @@ body > .mf-bar-collapser {
             opacity: 0 !important;
           }
           .show-more-nav-button{
-            display: none;
-            position: absolute;
-            height: 100px;
-            width: 100px;
-            z-index: 100;
-            left: 25px;
-            top: calc(100vh - 100px);
-            background-color: #4C2987;
-            color: #fff;
-            opacity: 1;
-            transition: all .45s ease-in-out;
-            -moz-transition: all .45s ease-in-out;
-            -webkit-transition: all .45s  ease-in-out;
+             /* display: none; */
+             position: fixed;
+             height: 100px;
+             width: 100px;
+             z-index: 100;
+             left: 25px;
+             /* top: calc(100vh - 100px); */
+             /* background-color: #4C2987; */
+             background-size: cover;
+             color: #fff;
+             opacity: 1;
+             bottom: 25px;
+             transition: all .45s ease-in-out;
+             -moz-transition: all .45s ease-in-out;
+             -webkit-transition: all .45s  ease-in-out;
+             background-image: url('https://maxi.sales-snap.com/asset/1535:arrowdownmaxipng');
           }
           /* show more */
           /* redesign */
@@ -1943,7 +1952,7 @@ body > .mf-bar-collapser {
             margin-bottom: 12px; /* Add some space below the input */
             margin-bottom: 12px;
             border-radius: 10px;
-            border: 4px solid #4C2987;
+            border: 4px solid #04A94D;;
           }
   
           #myUL {
