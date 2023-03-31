@@ -2481,6 +2481,16 @@
        .checkmark {
         border: 4px solid #000 !important;
        }
+
+       #interactiveNav:not(.active) .inner-dropdown,
+       #interactiveNav:not(.active) .show-more-nav-button {
+        display: none !important;
+       }
+
+       #interactiveNav.active .inner-dropdown,
+       #interactiveNav.active .show-more-nav-button {
+        display: inline !important;
+       }
        
        @font-face {
                font-family: "Mont-Book";
@@ -4754,6 +4764,25 @@
               </div>
             </a>
           </li> 
+          <li class="nav__items dropdown-trigger" style="margin-top:20px;cursor: pointer;">
+            <button style="background:transparent;border:none;cursor: pointer;">
+              <div class="spoljni-div">
+                <!-- <img src="https://maxi.sales-snap.com/asset/1518:gotova-jelapng" alt="gotova jela"> -->
+                <img src="https://maxi.sales-snap.com/asset/2056:katgorije-greensvg" alt="dropdown">
+              </div>
+            </button>
+          </li> 
+          <script>
+            $('.dropdown-trigger').on('click', function() {
+              $('#interactiveNav').toggleClass('active')
+              setTimeout(function() {
+                $('#sidebar_proizvod_1 a').focus()
+              }, 100)
+            })
+          </script>
+          <ul class="inner-dropdown">
+
+         
           <li id="sidebar_proizvod_1" class="nav__items">
             <a href="#">
               <div class="spoljni-div">
@@ -4905,6 +4934,7 @@
               </div>
             </a>
           </li> 
+        </ul>
           <!-- <li class="nav__items">
               <a href="https://www.maxi.rs/?utm_source=SG_Liflet&utm_medium=SG_liflet_ikonica&utm_campaign=SG" target="_self"><img style="padding:10px !important;" id="pripremi_obrok_piktogram" class="cover" src="https://maxi.sales-snap.com/asset/888:artboard-2-1png"></a>
           </li>             -->
@@ -5170,7 +5200,7 @@
         
         </div>    
 
-        <div style="display: block;" class="tabela-proizvoda-div kategorije active" >
+        <div style="display:block;" class="tabela-proizvoda-div kategorije active" >
 
           <div class="proizvodi-row" id="tabela-proizvoda">
               <!-- SVI NESORTIRANI PROIZVODI -->
