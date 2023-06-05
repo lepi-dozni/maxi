@@ -462,7 +462,8 @@
             font-size:20px !important;
         }
         #mauticform_input_maxinjuzleterkatalogforma_submit{
-            background: url(https://maxi.sales-snap.com/asset/1695:newslettermaxipng2) no-repeat right center !important;
+            /* background: url(https://maxi.sales-snap.com/asset/1695:newslettermaxipng2) no-repeat right center !important; */
+            background: url(https://maxi.sales-snap.com/asset/2480:imageedit76827529853png) no-repeat right center !important;
             background-size: contain !important;
             border-radius:100px;
             color:#320962;
@@ -2349,9 +2350,10 @@
               }
 
               #izracunaj {
-                width: 57% !important;
-                margin-right: -121px !important;
+                width: 65% !important;
+                margin-right: -152px !important;
                 cursor: pointer !important;
+                margin-top: -76px;
               }
               #izracunaj img {
                 height: auto !important;
@@ -2384,17 +2386,36 @@
                 height: 25px;
               }
 
-              #izracunaj {
+              /* #izracunaj {
                 position: fixed !important;
                 top: 0 !important;
                 right: 0 !important;
                 margin-top: 0 !important;
                 margin-right: 0 !important;
                 width: 12% !important;
+              } */
+
+              #mapa {
+                position: absolute !important;
+                top: 0 !important;
+                right: 0 !important;
+                margin-top: 5px !important;
+                margin-right: 15px !important;
+                width: auto !important;
+                text-align: center;
+              }
+
+              #mapa img {
+                height: 50px !important;
+                width: 50px !important;
+              }
+
+              #mapa p {
+                font-size: 12px !important;
               }
 
               .header-div img {
-                width: 100% !important;
+                width: 20% !important;
               }
 
               .header-div {
@@ -2430,9 +2451,10 @@
               /* IZMENE BOXEVA */
 
               .crveni-krug {
-                top: -56px;
-                margin-left: 65px;
-                font-size: 28px;
+                top: -64px;
+                margin-left: 66px;
+                font-size: 35px;
+                width: 100px;
               }
 
               .zuti-cenovnik {
@@ -2452,7 +2474,7 @@
 
               .cenovnik-right > div {
                 text-align: center;
-                font-size: 22px;
+                font-size: 18px;
               }
 
               .slicica-div {
@@ -2467,6 +2489,22 @@
 
               .div-inside img {
                 margin-top: 58px;
+              }
+
+              .nav:first-child {
+                padding-top: 0 !important;
+              }
+
+              .cover.home.close-menu {
+                width: 60% !important;
+                margin-left: 35px !important;
+                margin-bottom: 0px !important;
+              }
+
+              #nav_pocetna {
+                width: 60% !important;
+                margin-left: 20% !important;
+                margin-bottom: 0px !important;
               }
 
               
@@ -2540,13 +2578,13 @@
               #izracunaj {
                 background: transparent;
                 border: none;
-                display: none;
+                display: block;
                 /* margin-top: -80px; */
                 position: fixed;
                 top: 0;
-                right: 0;
+                left: 195px;
                 margin-top: 0;
-                float: right;
+                float: left;
             
               }
 
@@ -2574,14 +2612,14 @@
               }
 
               #izracunaj {
-                width: 15% !important;
-                top: 13px !important;
+                width: 18% !important;
+                top: -20px !important;
                 cursor: pointer !important;
               }
 
               #izracunaj img {
                 height: auto !important;
-              width: 88% !important;
+                width: 88% !important;
               }
 
               .mobile-newsletter .mauticform_wrapper {
@@ -2630,9 +2668,10 @@
 
               /* IZMENE BOXEVA */
               .crveni-krug {
-                top: -82px !important;
-                margin-left: 60% !important;
-                width: 150px !important;
+                top: -89px !important;
+                margin-left: 50% !important;
+                width: 175px !important;
+                font-size: 57px !important;
               }
 
               .naziv-proizvoda {
@@ -2660,7 +2699,7 @@
               }
 
               .cenovnik-right > div {
-                font-size: 40px;
+                font-size: 30px;
                 margin-left: 0;
                 text-align: center;
               }
@@ -2675,6 +2714,33 @@
                 margin-bottom: 80px;
               }
 
+              .header-div img {
+                width: 40% !important;
+              }
+
+              #interactiveNav .spoljni-div img:not(.cover) {
+                display: block;
+                align-content: center;
+              }
+
+              #mapa {
+                position: absolute !important;
+                top: 0 !important;
+                right: 0 !important;
+                margin-top: 5px !important;
+                margin-right: 15px !important;
+                width: auto !important;
+                text-align: center;
+              }
+
+              #mapa img {
+                height: 100px !important;
+                width: 100px !important;
+              }
+
+              #mapa p {
+                font-size: 20px !important;
+              }
               
               
         }
@@ -2685,11 +2751,11 @@
         overflow: hidden;
        }
 
-       .cover.home.close-menu {
+       /* .cover.home.close-menu {
         width: 90% !important;
         margin-left: 18px !important;
         margin-bottom: 30px !important;
-       }
+       } */
 
 
 
@@ -2748,6 +2814,16 @@
        .checkmark {
         border: 4px solid #000 !important;
        }
+
+       #interactiveNav .spoljni-div {
+        padding: 5px !important;
+       }
+
+       .slicica-div:has(.plava-cena) {
+        border-color: #2bb4de !important;
+       }
+
+       
        
        @font-face {
                font-family: "Mont-Book";
@@ -4984,7 +5060,16 @@
         // }, 2000)
              
       </script>
-      
+
+
+      <div id="mapa" class="nav__items">
+        <a href="#">
+          <div class="spoljni-div">
+            <img src="https://maxi.sales-snap.com/asset/2363:icons-maxi-digitalni-katalogmappng" alt="mapa">
+            <p class="top-ponuda">PRONAĐI MAXI</p>
+          </div>
+        </a>
+      </div> 
          
       <!-- NEW NAV -->
       <nav class="nav__cont" id="interactiveNav"  >
@@ -5001,16 +5086,14 @@
               <img id="nav_pocetna" onclick="clickNavLink(event)" class="cover home" src="https://maxi.sales-snap.com/asset/2366:homemaxi-2png">
             </a>
           </li> 
-          <li class="nav__items">
+          <!-- <li id="mapa" class="nav__items">
             <a href="#">
               <div class="spoljni-div">
-                <!-- <img src="https://maxi.sales-snap.com/asset/2054:redpng" alt="mapa"> -->
-                <!-- <img src="https://maxi.sales-snap.com/asset/2313:red-1png" alt="mapa"> -->
                 <img src="https://maxi.sales-snap.com/asset/2363:icons-maxi-digitalni-katalogmappng" alt="mapa">
                 <p class="top-ponuda">PRONAĐI MAXI</p>
               </div>
             </a>
-          </li> 
+          </li>  -->
           <!--   <nav onmouseenter="enterNav()" onmouseleave="leaveNav()"></nav> -->
           <!-- <li class="nav__items"> -->
               <!-- <p class="top-ponuda">POGLEDAJ TOP PONUDU</p><br/> -->
@@ -5018,23 +5101,20 @@
           <!-- </li> -->
           <!-- Ž -->
           <!-- NOVI SIDEBAR             -->
-          <li class="nav__items">
+          <!-- <li class="nav__items">
             <a href="#">
               <div class="spoljni-div">
-                <!-- <img src="https://maxi.sales-snap.com/asset/2037:top-20maxipng" alt="top 20"> -->
-                <!-- <img src="https://maxi.sales-snap.com/asset/2319:top-20--2png" alt="top 20"> -->
                 <img src="https://maxi.sales-snap.com/asset/2364:icons-maxi-digitalni-katalogtop20png" alt="top 20">
-                <!-- <p class="top-ponuda">GOTOVA JELA</p> -->
               </div>
             </a>
-          </li> 
+          </li>  -->
           <li id="maxi_app_loyalty" class="nav__items">
             <a href="#">
               <div class="spoljni-div">
                 <!-- <img src="https://maxi.sales-snap.com/asset/2038:moj-maxi-logo-finalpng" alt="loyalty ponuda"> -->
                 <!-- <img src="https://maxi.sales-snap.com/asset/2318:moj-maxipng" alt="loyalty ponuda"> -->
                 <img src="https://maxi.sales-snap.com/asset/2365:icons-maxi-digitalni-katalogmoj-maxipng" alt="loyalty ponuda">
-                <p style="margin-top:15px;" class="top-ponuda">LOYALTY PONUDA</p>
+                <p class="top-ponuda">LOYALTY PONUDA</p>
               </div>
             </a>
           </li> 
@@ -5053,15 +5133,6 @@
                 <!-- <img src="https://maxi.sales-snap.com/asset/1526:mesoiribapng" alt="meso i riba"> -->
                 <img src="https://maxi.sales-snap.com/asset/2373:icons-maxi-digitalni-katalogmeso-i-ribapng" alt="meso i riba">
                 <p class="top-ponuda">MESO I RIBA</p>
-              </div>
-            </a>
-          </li> 
-          <li id="sidebar_proizvod_3" class="nav__items">
-            <a href="#">
-              <div class="spoljni-div">
-                <!-- <img src="https://maxi.sales-snap.com/asset/1518:gotova-jelapng" alt="gotova jela"> -->
-                <img src="https://maxi.sales-snap.com/asset/2374:icons-maxi-digitalni-kataloggotova-jelapng" alt="gotova jela">
-                <p class="top-ponuda">GOTOVA JELA</p>
               </div>
             </a>
           </li>   
@@ -5188,6 +5259,15 @@
                 <!-- <img src="https://maxi.sales-snap.com/asset/1531:smrznutahranapng" alt="smrznuta hrana"> -->
                 <img src="https://maxi.sales-snap.com/asset/2387:icons-maxi-digitalni-katalogalkoholna-picapng" alt="alkoholna pica">
                 <p class="top-ponuda">ALKOHOLNA PIĆA</p>
+              </div>
+            </a>
+          </li> 
+          <li id="sidebar_proizvod_3" class="nav__items">
+            <a href="#">
+              <div class="spoljni-div">
+                <!-- <img src="https://maxi.sales-snap.com/asset/1518:gotova-jelapng" alt="gotova jela"> -->
+                <img src="https://maxi.sales-snap.com/asset/2374:icons-maxi-digitalni-kataloggotova-jelapng" alt="gotova jela">
+                <p class="top-ponuda">GOTOVA JELA</p>
               </div>
             </a>
           </li> 
@@ -5324,16 +5404,16 @@
         </script>
 
          <div class="header-div" id="in2db" style="background-color: #FE000C;">
-            <!-- <div class="levo-header">
+             <!-- <div class="levo-header">
               OVE NEDELJE U
-            </div>
-            <center><a href="https://digitalni-katalog.maxi.rs/" target="_self"><img src="https://maxi.sales-snap.com/asset/1584:logomaxipng" id="iw2i"></a></center>
-            <div class="desno-header">
-              SUPERMARKETIMA
             </div> -->
+            <center><a href="https://digitalni-katalog.maxi.rs/" target="_self"><img src="https://maxi.sales-snap.com/asset/1584:logomaxipng" id="iw2i"></a></center>
+            <!-- <div class="desno-header">
+              SUPERMARKETIMA
+            </div>  -->
             <!-- <img src="https://maxi.sales-snap.com/asset/2362:ove-nedelje-u-maxi-supermarketima466x85pxpng" alt=""> -->
-             <img class="desktop-header-banner" src="https://maxi.sales-snap.com/asset/2393:untitled-2png" alt="">
-             <img class="mobile-header-banner" src="https://maxi.sales-snap.com/asset/2369:ove-nedelje-u-maxi-supermarketima1920x85pxpng" alt="">
+             <!-- <img class="desktop-header-banner" src="https://maxi.sales-snap.com/asset/2393:untitled-2png" alt="">
+             <img class="mobile-header-banner" src="https://maxi.sales-snap.com/asset/2369:ove-nedelje-u-maxi-supermarketima1920x85pxpng" alt=""> -->
          </div>
           <!-- redesign -->
           <div class="banner-slider">
@@ -5420,7 +5500,7 @@
                       <span> din</span>
                   </div>
                   
-                  <button style="display: none;" id="izracunaj">
+                  <button id="izracunaj">
                     <!-- <img src="https://maxi.sales-snap.com/asset/2055:6426205cd764c344763311gif"></img> -->
                     <img src="https://maxi.sales-snap.com/asset/2317:spisak-1gif"></img>
                 </button>
@@ -5449,45 +5529,95 @@
                         var tekst = '\n__________________________________________________________________\n\n'
                         
                         var stranice = 1
+                        var totalni_iznos = 0
+
+                        var krajni_tekst = ''
+                        var krajni_tekst_puna_cena = ''
+
                         for(x=0;x < $('.cekboks-kalkulatora:checked').length;x++) {
 
                             
-                            
+                           
                             var element = $('.cekboks-kalkulatora:checked:eq(' + x + ')')
-                            tekst += '• ' + element.parents('.spoljni-div').find('.naziv-proizvoda').text().trim()  + ', kol: '
+                            tekst += '• ' + element.parents('.spoljni-div').find('.naziv-proizvoda').text().trim()  + ', '
 
-                            tekst += element.parents('.spoljni-div').find('.kolicina').text().trim() + ', ušteda: '
-
+                            var kolicina = 'kol: ' + element.parents('.spoljni-div').find('.kolicina').text().trim()
+        
                             var stara_cena = parseFloat(element.parents('.spoljni-div').find('div[id*="stara-cena"]').attr('data-id'))
                             var nova_cena = parseFloat(element.parents('.spoljni-div').find('div[id*="nova-cena"]').attr('data-id'))
-                            var razlika = parseFloat(stara_cena - nova_cena).toFixed(2).replace('.', ',')
+
                             
+
+                            tekst += 'cena: ' + nova_cena.toFixed(2).replace('.', ',') + ' din' + ', ušteda: '
+
+
+                            var razlika = parseFloat(stara_cena - nova_cena).toFixed(2).replace('.', ',')
+
+                           
+
+                            var cena_artikla = parseFloat(element.parents('.spoljni-div').find('div[id*="nova-cena"]').attr('data-id'))
+                            totalni_iznos += cena_artikla
+
+                            console.log('totalni iznos:' + totalni_iznos)
                             
                             tekst += razlika + ' din\n' + '__________________________________________________________________\n\n'
 
                             console.log(tekst)
-                            doc.text(tekst, 10, 50,{charSpace: '0.9'})
+                            doc.text(tekst, 10, 50,{charSpace: '-0.9'})
 
-                            if(x == 11) {
-                                doc.addPage();
+                            if(x == 10) {
+                              krajni_tekst = 'Ukupna ušteda:\n' + $('#kalkulator .usteda').text().replace('.', ',') + ' din'
+                              krajni_tekst_puna_cena = 'Totalni iznos:\n' + parseFloat(totalni_iznos).toFixed(2).replace('.', ',') + ' din'
+
+                              doc.setDrawColor(0);
+                              doc.setFillColor(254, 241, 0);
+                              doc.roundedRect(140, 15, 60, 25, 5, 5, 'F')
+
+                              doc.text(krajni_tekst, 145, 25,{charSpace: '0.9'})
+                              doc.text(krajni_tekst_puna_cena, 10, 280,{charSpace: '0.9'})
+
+
+                              doc.addPage();
+
+                              doc.addImage("data:image/png;base64,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", "PNG", 10, 15, 50, 14);
+                              // var tekst = 'Spisak artikala:\n'
+                              doc.text('SPISAK ZA KUPOVINU', 10, 40)  
                                 tekst = '\n__________________________________________________________________\n\n'
                                 stranice++
+
+                              krajni_tekst = 'Ukupna ušteda:\n' + $('#kalkulator .usteda').text().replace('.', ',') + ' din'
+                              krajni_tekst_puna_cena = 'Totalni iznos:\n' + parseFloat(totalni_iznos).toFixed(2).replace('.', ',') + ' din'
+
+                              doc.setDrawColor(0);
+                              doc.setFillColor(254, 241, 0);
+                              doc.roundedRect(140, 15, 60, 25, 5, 5, 'F')
+
+                              doc.text(krajni_tekst, 145, 25,{charSpace: '0.9'})
+                              doc.text(krajni_tekst_puna_cena, 10, 280,{charSpace: '0.9'})
                             }
                         }
 
+                        if(stranice == 1) {
+                          krajni_tekst = 'Ukupna ušteda:\n' + $('#kalkulator .usteda').text().replace('.', ',') + ' din'
+                          krajni_tekst_puna_cena = 'Totalni iznos:\n' + parseFloat(totalni_iznos).toFixed(2).replace('.', ',') + ' din'
+                          // doc.setFont('ArialUnicodeMS')
+                          // doc.setFontType('normal')
+                          // var distanca
+                          // if(stranice == 1) distanca = 200
+                          // else if(stranice == 2) distanca = 280
 
-                        var krajni_tekst = 'Ukupna ušteda:\n' + $('#kalkulator .usteda').text().replace('.', ',') + ' din'
-                        // doc.setFont('ArialUnicodeMS')
-                        // doc.setFontType('normal')
-                        // var distanca
-                        // if(stranice == 1) distanca = 200
-                        // else if(stranice == 2) distanca = 280
+                          
 
-                        doc.setDrawColor(0);
-                        doc.setFillColor(254, 241, 0);
-                        doc.roundedRect(140, 15, 60, 25, 5, 5, 'F')
+                          
 
-                        doc.text(krajni_tekst, 145, 25,{charSpace: '0.9'})
+                          doc.setDrawColor(0);
+                          doc.setFillColor(254, 241, 0);
+                          doc.roundedRect(140, 15, 60, 25, 5, 5, 'F')
+
+                          doc.text(krajni_tekst, 145, 25,{charSpace: '0.9'})
+                          doc.text(krajni_tekst_puna_cena, 10, 280,{charSpace: '0.9'})
+
+                        }
                         doc.save('a4.pdf')
 
 
@@ -5619,7 +5749,7 @@
             var nova_usteda = parseFloat(parseFloat(parseFloat($('.usteda').text()) - trenutna_usteda_artikal).toFixed(2))
             $('.usteda').text(nova_usteda)
             $(event.target).parents('.spoljni-div').find('.popust-artikal').text('0')
-            if(document.querySelectorAll('.cekboks-kalkulatora:checked').length == 0) $('#izracunaj').css('display', 'none')
+            // if(document.querySelectorAll('.cekboks-kalkulatora:checked').length == 0) $('#izracunaj').css('display', 'none')
 
         }
     
@@ -5636,7 +5766,7 @@
                         $(event.target).parents('.spoljni-div').children('.telo-kalkulatora').css('display', 'block')
                         // $(event.target).next().find('.kolicina').text('1')
                         sabiranje(event)
-                        $('#izracunaj').css('display', 'inline')
+                        // $('#izracunaj').css('display', 'inline')
 
                     } else {
 
@@ -5989,13 +6119,13 @@
 
                <div class="f-sekcija">
                 <br>
-                <a href="#" style="font-weight:bold;text-decoration:unset;">Potrebna vam je pomoć?</a>
+                <a href="#" style="font-weight:bold;text-decoration:unset;">Potrebna ti je pomoć?</a>
                 <br>
                 <a href="#" style="text-decoration:unset;">Često postavljana pitanja</a>
                 <!-- <br>
                   <a href="https://maxi.sales-snap.com/o-kompaniji">O kompaniji</a> -->
                   <br>
-                  <a style="text-decoration:unset;" href="tel:0800-3537030">Kontaktirajte nas</a>
+                  <a style="text-decoration:unset;" href="tel:0800-3537030">Kontaktiraj nas</a>
                   <br>
                   <a style="text-decoration:unset;" href="https://maxi.sales-snap.com/o-kompaniji">Kontakt i podaci o kompaniji</a>
                   <!-- <a href="https://maxi.sales-snap.com/kolacici">Politika kola&#269;i&#263;a</a> -->
